@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.outfit {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+.body {
+    min-height: 100vh;
+}
+
+.app {
+    width: 80%;
+    margin: auto;
+}
+
+nav {
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerUm {
+    overflow: hidden;
+    height: 34vw;
+    margin: 30px auto;
+    background: no-repeat;
+    background-image: url('src/header_img.png');
+    background-size: contain;
+    position: relative;
+}
+
+.headerContent {
+    
+    font-size: 1.8vw;
+    color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left: 6vw;
+}
+
+.headerContent p {
+    font-size: 1vw;
+}
+
+.headerContent button {
+    border: none;
+    color: #747474;
+    font-weight: 500;
+    padding: 1vw 2.3vw;
+    background-color: white;
+    font-size: max(1vw, 13px);
+    border-radius: 50px;
+}
+
+.ContentDois {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ContentDois h1 {
+    font-size: 32px;
+    color: #262626;
+    font-weight: 500;
+}
+
+.ContentDois hr{
+    margin: 10px 0px;
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+}
+
+.ContentTres {
+    margin-top: 30px;
+}
+
+.ContentTres h2{
+    font-size: max(2vw, 24px);
+    font-weight: 600;
+}
+
+.makeGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    margin-top: 30px;
+    gap: 30px;
+    row-gap: 50px;
+}
+
+.card {
+    width: 100%;
+    margin: 0%;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px #00000015;
+    transition: 0.3s;
+    animation: fadeIn 1s;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.NameRating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.NameRating p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.NameRating img {
+    width: 70px;
+}
+
+.descricao {
+    color: #676767;
+    font-size: 12px;
+}
+
+.price {
+    color: tomato;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.ContentQuatro {
+    margin: auto auto;
+    margin-top: 100px;
+    font-size: max(3vw, 20px);
+    text-align: center;
+    font-weight: 500;
+}
+
+.ifoodApp {
+    margin-top: 40px;
+}
+
+.ifoodApp img {
+    width: max(30vw, 120px);
+    max-width: 180px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.footer {
+    color: #d9d9d9;
+}
