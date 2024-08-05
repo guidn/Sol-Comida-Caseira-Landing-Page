@@ -131,7 +131,7 @@ nav {
 }
 
 .NameRating img {
-    width: 70px;
+    width: 50px;
 }
 
 .descricao {
@@ -177,9 +177,58 @@ nav {
     margin-top: 100px;
 }
 
+.footer hr {
+    width: 100%;
+    height: 2px;
+    margin: 20px 0px;
+    background-color: gray;
+    border: none;
+}
+
 .footerContent {
     width: 100%;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     gap: 80px;
+}
+
+.Esquerda {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.Meio {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.Meio h2 {
+    color: white;
+}
+
+.Direita {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+
+.Direita h2 {
+    color: white;
+}
+
+.Meio li, .Direita li {
+    list-style: none;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+
+.footerIcons img {
+    width: 40px;
+    margin-right: 15px;
 }
